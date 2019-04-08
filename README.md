@@ -2,6 +2,14 @@
 
 A little library for composing Silicon Valley flavored parody horoscopes.
 
+## Installation
+
+```
+npm install --save sv-horoscope
+```
+
+## Usage
+
 ```
 const { Horoscope } = require('sv-horoscope');
 // this is just for getting a day-specific seed, so on a given day the user will receive a consistent horoscope.
